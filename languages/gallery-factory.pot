@@ -1,0 +1,994 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Gallery Factory\n"
+"POT-Creation-Date: 2016-10-16 21:22+0200\n"
+"PO-Revision-Date: 2016-04-22 15:08+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.10\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: gallery-factory.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: php/admin/api/image.php:99
+msgid "The uploaded file is not a valid image. Please try again."
+msgstr ""
+
+#: php/admin/api/other.php:257
+msgid "No installed NextGen gallery found"
+msgstr ""
+
+#: php/admin/main.php:125 php/admin/main.php:221
+msgid "Tools"
+msgstr ""
+
+#: php/admin/main.php:129 php/admin/main.php:220
+msgid "Settings"
+msgstr ""
+
+#: php/admin/main.php:213
+msgid "Locale"
+msgstr ""
+
+#: php/admin/main.php:222
+msgid "Navigation"
+msgstr ""
+
+#: php/admin/main.php:223
+msgid "Submit support request"
+msgstr ""
+
+#: php/admin/main.php:224
+msgid ""
+"Start with creating a new folder or album by pressing \"+\" button in the "
+"bottom-right corner."
+msgstr ""
+
+#: php/admin/main.php:225
+msgid "The folder is empty yet."
+msgstr ""
+
+#: php/admin/main.php:226
+msgid "There are no images in image library yet. Drag files here to upload."
+msgstr ""
+
+#: php/admin/main.php:227
+msgid "There are no unsorted images."
+msgstr ""
+
+#: php/admin/main.php:228
+msgid "There are no images in this album yet. Drag files here to upload."
+msgstr ""
+
+#: php/admin/main.php:229
+msgid "View"
+msgstr ""
+
+#: php/admin/main.php:230
+msgid "Hide Navigation"
+msgstr ""
+
+#: php/admin/main.php:231
+msgid "Show Navigation"
+msgstr ""
+
+#: php/admin/main.php:232
+msgid "Hide Summary"
+msgstr ""
+
+#: php/admin/main.php:233
+msgid "Show Summary"
+msgstr ""
+
+#: php/admin/main.php:235
+msgid "All images"
+msgstr ""
+
+#: php/admin/main.php:236
+msgid "Unsorted images"
+msgstr ""
+
+#: php/admin/main.php:237
+msgid "Library"
+msgstr ""
+
+#: php/admin/main.php:239
+msgid "File"
+msgstr ""
+
+#: php/admin/main.php:240
+msgid "EXIF"
+msgstr ""
+
+#: php/admin/main.php:242
+msgid "Name"
+msgstr ""
+
+#: php/admin/main.php:243
+msgid "Slug"
+msgstr ""
+
+#: php/admin/main.php:244 php/admin/main.php:486 php/admin/main.php:501
+msgid "Caption"
+msgstr ""
+
+#: php/admin/main.php:245
+msgid "Description"
+msgstr ""
+
+#: php/admin/main.php:246
+msgid "Alt text"
+msgstr ""
+
+#: php/admin/main.php:247
+msgid "URL"
+msgstr ""
+
+#: php/admin/main.php:248
+msgid "Shortcode"
+msgstr ""
+
+#: php/admin/main.php:249
+msgid "Folders"
+msgstr ""
+
+#: php/admin/main.php:250
+msgid "Albums"
+msgstr ""
+
+#: php/admin/main.php:251
+msgid "Set cover image"
+msgstr ""
+
+#: php/admin/main.php:252
+msgid "Select cover image"
+msgstr ""
+
+#: php/admin/main.php:253
+msgid "Thumbnail Crop"
+msgstr ""
+
+#: php/admin/main.php:255
+msgctxt "tab"
+msgid "General"
+msgstr ""
+
+#: php/admin/main.php:256
+msgctxt "tab"
+msgid "Layout"
+msgstr ""
+
+#: php/admin/main.php:257
+msgctxt "tab"
+msgid "Style"
+msgstr ""
+
+#: php/admin/main.php:258
+msgctxt "tab"
+msgid "Settings"
+msgstr ""
+
+#: php/admin/main.php:259
+msgctxt "tab"
+msgid "Preview"
+msgstr ""
+
+#: php/admin/main.php:260
+msgctxt "tab"
+msgid "Metadata"
+msgstr ""
+
+#: php/admin/main.php:263
+msgid "File name"
+msgstr ""
+
+#: php/admin/main.php:264
+msgid "File type"
+msgstr ""
+
+#: php/admin/main.php:265
+msgid "File size"
+msgstr ""
+
+#: php/admin/main.php:266
+msgid "Dimensions"
+msgstr ""
+
+#: php/admin/main.php:267
+msgid "Upload date"
+msgstr ""
+
+#: php/admin/main.php:268
+msgid "Uploaded by"
+msgstr ""
+
+#: php/admin/main.php:269
+msgid "Camera"
+msgstr ""
+
+#: php/admin/main.php:270
+msgid "Lens"
+msgstr ""
+
+#: php/admin/main.php:271
+msgid "Focal length"
+msgstr ""
+
+#: php/admin/main.php:272
+msgid "Shutter speed"
+msgstr ""
+
+#: php/admin/main.php:273
+msgid "Aperture"
+msgstr ""
+
+#: php/admin/main.php:274
+msgid "ISO"
+msgstr ""
+
+#: php/admin/main.php:275
+msgid "Creation date&time"
+msgstr ""
+
+#: php/admin/main.php:276
+msgid "Author"
+msgstr ""
+
+#: php/admin/main.php:277
+msgid "Copyright"
+msgstr ""
+
+#: php/admin/main.php:278
+msgid "Tags"
+msgstr ""
+
+#: php/admin/main.php:279
+msgid "Click action"
+msgstr ""
+
+#: php/admin/main.php:280
+msgid "Link URL"
+msgstr ""
+
+#: php/admin/main.php:281
+msgid "Open link in"
+msgstr ""
+
+#: php/admin/main.php:285
+msgid "Append new images to"
+msgstr ""
+
+#: php/admin/main.php:286
+msgid "Display info on hover"
+msgstr ""
+
+#: php/admin/main.php:287
+msgid "Pagination type"
+msgstr ""
+
+#: php/admin/main.php:288
+msgid "Page size (in rows), set 0 to use global setting"
+msgstr ""
+
+#: php/admin/main.php:289
+msgid "Pagination style"
+msgstr ""
+
+#: php/admin/main.php:291
+msgid "Layout type"
+msgstr ""
+
+#: php/admin/main.php:292
+msgid "Column count"
+msgstr ""
+
+#: php/admin/main.php:293
+msgid "Column count (mobile)"
+msgstr ""
+
+#: php/admin/main.php:294
+msgid "Aspect ratio (width/height)"
+msgstr ""
+
+#: php/admin/main.php:295
+msgid "Horizontal spacing (px)"
+msgstr ""
+
+#: php/admin/main.php:296
+msgid "Vertical spacing (px)"
+msgstr ""
+
+#: php/admin/main.php:297
+msgid "Align bottom row"
+msgstr ""
+
+#: php/admin/main.php:298
+msgid "Page size in rows"
+msgstr ""
+
+#: php/admin/main.php:300
+msgid "%{smart_count} image selected |||| %{smart_count} images selected"
+msgstr ""
+
+#: php/admin/main.php:304
+msgid "Uploading to"
+msgstr ""
+
+#: php/admin/main.php:305
+msgid "Done"
+msgstr ""
+
+#: php/admin/main.php:306
+msgid "Completed"
+msgstr ""
+
+#: php/admin/main.php:307
+msgid "Cancelled"
+msgstr ""
+
+#: php/admin/main.php:308
+msgid "Uploader error"
+msgstr ""
+
+#: php/admin/main.php:309
+msgid "%{1} of %{2}"
+msgstr ""
+
+#: php/admin/main.php:310
+msgid "Image library"
+msgstr ""
+
+#: php/admin/main.php:313
+msgid "Enter new folder name"
+msgstr ""
+
+#: php/admin/main.php:314
+msgid "Enter new album name"
+msgstr ""
+
+#: php/admin/main.php:315
+msgid "Delete the folder?"
+msgstr ""
+
+#: php/admin/main.php:316
+msgid ""
+"The folder \"%{name}\" and all folders & albums within it will be deleted. "
+"Images inside the albums will not be deleted and can be found in the \"All "
+"images\" folder."
+msgstr ""
+
+#: php/admin/main.php:317
+msgid "Delete the album?"
+msgstr ""
+
+#: php/admin/main.php:318
+msgid ""
+"The album \"%{name}\" will be deleted. Images inside this album will not be "
+"deleted and can be found in the \"All images\" folder."
+msgstr ""
+
+#: php/admin/main.php:320
+msgid "Folder saved"
+msgstr ""
+
+#: php/admin/main.php:321
+msgid "Album saved"
+msgstr ""
+
+#: php/admin/main.php:322
+msgid "Image saved"
+msgstr ""
+
+#: php/admin/main.php:323
+msgid "Settings saved"
+msgstr ""
+
+#: php/admin/main.php:326
+msgid "Thumbnail regeneration"
+msgstr ""
+
+#: php/admin/main.php:327
+msgid "Import from WP Media"
+msgstr ""
+
+#: php/admin/main.php:328
+msgid "Import from NextGen gallery"
+msgstr ""
+
+#: php/admin/main.php:329
+msgid ""
+"You can regenerate thumbnails here. Depending on your collection size, it "
+"can take a considerable amount of time."
+msgstr ""
+
+#: php/admin/main.php:330
+msgid "Regenerate thumbnails"
+msgstr ""
+
+#: php/admin/main.php:331
+msgid ""
+"Regenerating thumbnails... please do not switch off this page until it's "
+"completed."
+msgstr ""
+
+#: php/admin/main.php:332
+msgid ""
+"This feature imports all your Wordpress Media images to the Gallery Factory. "
+"All other attachment file types are ignored. The imported images are added "
+"to the \"Unsorted images\" folder within Gallery Factory. The WP Media "
+"content is just copied during the import and remains untouched."
+msgstr ""
+
+#: php/admin/main.php:333
+msgid ""
+"Please note, that Gallery Factory uses its own uploads folder on server, so "
+"physical image files will be copied there from the original WP location. "
+"Make sure that you have enough disk space before proceeding with the import. "
+"The import procedure may take time, depending on your WP Media content size. "
+"Import can't be canceled once started, and the result can't be reverted."
+msgstr ""
+
+#: php/admin/main.php:334
+msgid "Import images from WP Media"
+msgstr ""
+
+#: php/admin/main.php:335
+msgid ""
+"Importing your WP Media image library... please do not switch off this page "
+"until it's completed."
+msgstr ""
+
+#: php/admin/main.php:336
+msgid ""
+"This feature imports all your NextGen Gallery albums, galleries and images "
+"to the Gallery Factory. The NextGen content is just copied during the import "
+"and remains untouched."
+msgstr ""
+
+#: php/admin/main.php:337
+msgid ""
+"Please note, that Gallery Factory uses its own uploads folder on server, so "
+"physical image files will be copied there from the original NextGen uploads "
+"folder. Make sure that you have enough disk space before proceeding with the "
+"import. The import procedure may take time, depending on your NextGen "
+"Gallery content size. Import can't be canceled once started, and the result "
+"can't be reverted."
+msgstr ""
+
+#: php/admin/main.php:338
+msgid "Create \"NextGen\" folder and put all imported items there"
+msgstr ""
+
+#: php/admin/main.php:339
+msgid "Import images from NextGen Gallery"
+msgstr ""
+
+#: php/admin/main.php:340
+msgid ""
+"Importing your NextGen Gallery image library... please do not switch off "
+"this page until it's completed."
+msgstr ""
+
+#: php/admin/main.php:343
+msgctxt "settings"
+msgid "Lightbox"
+msgstr ""
+
+#: php/admin/main.php:344
+msgctxt "settings"
+msgid "Display info on hover"
+msgstr ""
+
+#: php/admin/main.php:345
+msgctxt "settings"
+msgid "Pagination style"
+msgstr ""
+
+#: php/admin/main.php:346
+msgctxt "settings"
+msgid "Use lazy loading"
+msgstr ""
+
+#: php/admin/main.php:347
+msgctxt "settings"
+msgid "Thumbnail maximum resolution (width&times;height)"
+msgstr ""
+
+#: php/admin/main.php:348
+msgctxt "settings"
+msgid "Thumbnail quality (from 0 to 100)"
+msgstr ""
+
+#: php/admin/main.php:351 php/admin/main.php:713
+msgctxt "button"
+msgid "Cancel"
+msgstr ""
+
+#: php/admin/main.php:352
+msgctxt "button"
+msgid "Stop"
+msgstr ""
+
+#: php/admin/main.php:353
+msgctxt "button"
+msgid "Create"
+msgstr ""
+
+#: php/admin/main.php:354
+msgctxt "button"
+msgid "Delete"
+msgstr ""
+
+#: php/admin/main.php:355
+msgctxt "button"
+msgid "Close"
+msgstr ""
+
+#: php/admin/main.php:356
+msgctxt "button"
+msgid "Save"
+msgstr ""
+
+#: php/admin/main.php:360
+msgctxt "tooltip"
+msgid "Menu"
+msgstr ""
+
+#: php/admin/main.php:361
+msgctxt "tooltip"
+msgid "Delete folder"
+msgstr ""
+
+#: php/admin/main.php:362
+msgctxt "tooltip"
+msgid "Edit folder"
+msgstr ""
+
+#: php/admin/main.php:363
+msgctxt "tooltip"
+msgid "Delete album"
+msgstr ""
+
+#: php/admin/main.php:364
+msgctxt "tooltip"
+msgid "Edit album"
+msgstr ""
+
+#: php/admin/main.php:366
+msgctxt "tooltip"
+msgid "Add new folder"
+msgstr ""
+
+#: php/admin/main.php:367
+msgctxt "tooltip"
+msgid "Add new album"
+msgstr ""
+
+#: php/admin/main.php:368
+msgctxt "tooltip"
+msgid "Upload images"
+msgstr ""
+
+#: php/admin/main.php:370
+msgctxt "tooltip"
+msgid "Save changes"
+msgstr ""
+
+#: php/admin/main.php:371
+msgctxt "tooltip"
+msgid "Previous image"
+msgstr ""
+
+#: php/admin/main.php:372
+msgctxt "tooltip"
+msgid "Next image"
+msgstr ""
+
+#: php/admin/main.php:373
+msgctxt "tooltip"
+msgid ""
+"This option defines the lightbox to be used. Select \"Disable\" to disable "
+"lightbox integration."
+msgstr ""
+
+#: php/admin/main.php:374
+msgctxt "tooltip"
+msgid "Select which info will be displayed on hovering the thumbnail."
+msgstr ""
+
+#: php/admin/main.php:375
+msgctxt "tooltip"
+msgid ""
+"Set the default pagination behaviour for the albums. For more info on "
+"available options please refer to the documentation."
+msgstr ""
+
+#: php/admin/main.php:376
+msgctxt "tooltip"
+msgid ""
+"You can choose from two predefined styles for pagination controls or select "
+"\"Custom\" and define your own style in css."
+msgstr ""
+
+#: php/admin/main.php:377
+msgctxt "tooltip"
+msgid ""
+"Lazy loading of thumbnails means that image thumbnails outside of viewport "
+"are not loaded until user scrolls to them."
+msgstr ""
+
+#: php/admin/main.php:378
+msgctxt "tooltip"
+msgid ""
+"You can set the thumbnail dimensions that are most suitable for your "
+"website. After changing this setting you need to regenerate thumbnails using "
+"the \"Tools\" - \"Regenerate thumbnails\" dialog."
+msgstr ""
+
+#: php/admin/main.php:379
+msgctxt "tooltip"
+msgid ""
+"This value affects the compression ratio for generated image thumbnails. "
+"Lower values allow to reduce image sizes, but with some quality loss."
+msgstr ""
+
+#: php/admin/main.php:381 php/admin/main.php:382 php/admin/main.php:383
+#: php/admin/main.php:384 php/admin/main.php:385 php/admin/main.php:386
+#: php/admin/main.php:387 php/admin/main.php:388 php/admin/main.php:389
+msgctxt "tooltip"
+msgid ""
+msgstr ""
+
+#: php/admin/main.php:391
+msgctxt "tooltip"
+msgid "Toggle list mode"
+msgstr ""
+
+#: php/admin/main.php:392
+msgctxt "tooltip"
+msgid "Activate bulk select mode"
+msgstr ""
+
+#: php/admin/main.php:393
+msgctxt "tooltip"
+msgid "Cancel selection"
+msgstr ""
+
+#: php/admin/main.php:394
+msgctxt "tooltip"
+msgid "Select all"
+msgstr ""
+
+#: php/admin/main.php:395
+msgctxt "tooltip"
+msgid "Invert selection"
+msgstr ""
+
+#: php/admin/main.php:396
+msgctxt "tooltip"
+msgid "Deselect all"
+msgstr ""
+
+#: php/admin/main.php:397
+msgctxt "tooltip"
+msgid "Delete selected"
+msgstr ""
+
+#: php/admin/main.php:401
+msgctxt "tutorial"
+msgid "Sample folder %{n}"
+msgstr ""
+
+#: php/admin/main.php:402
+msgctxt "tutorial"
+msgid "Sample album %{n}"
+msgstr ""
+
+#: php/admin/main.php:403
+msgctxt "tutorial"
+msgid "Continue"
+msgstr ""
+
+#: php/admin/main.php:404
+msgctxt "tutorial"
+msgid "Skip tutorial"
+msgstr ""
+
+#: php/admin/main.php:406
+msgctxt "tutorial"
+msgid "Welcome to Gallery Factory!"
+msgstr ""
+
+#: php/admin/main.php:407
+msgctxt "tutorial"
+msgid ""
+"This tour will guide you through the basic plugin features.<br>Click "
+"\"Continue\" at the bottom of the screen to proceed."
+msgstr ""
+
+#: php/admin/main.php:409
+msgctxt "tutorial"
+msgid "Navigation panel"
+msgstr ""
+
+#: php/admin/main.php:410
+msgctxt "tutorial"
+msgid ""
+"It shows your library structure and lets you easily navigate through it. "
+"Click the folder icon to expand/collapse it or the label to navigate to "
+"folder or album. Also, you can reorder the items by dragging them within the "
+"tree."
+msgstr ""
+
+#: php/admin/main.php:411
+msgctxt "tutorial"
+msgid "Main panel"
+msgstr ""
+
+#: php/admin/main.php:412
+msgctxt "tutorial"
+msgid ""
+"That’s the main workspace showing the content of the current items (folder "
+"or album)."
+msgstr ""
+
+#: php/admin/main.php:413
+msgctxt "tutorial"
+msgid "Info panel"
+msgstr ""
+
+#: php/admin/main.php:414
+msgctxt "tutorial"
+msgid ""
+"This panel shows a summary of the item which is selected in the main panel."
+msgstr ""
+
+#: php/admin/main.php:415
+msgctxt "tutorial"
+msgid "Add new items"
+msgstr ""
+
+#: php/admin/main.php:416
+msgctxt "tutorial"
+msgid ""
+"Use this button for adding new items to your library: folders and albums "
+"when you’re inside a folder, or upload images when you’re inside an album."
+msgstr ""
+
+#: php/admin/main.php:418
+msgctxt "tutorial"
+msgid "Currently selected album/folder"
+msgstr ""
+
+#: php/admin/main.php:419
+msgctxt "tutorial"
+msgid "Open editor for the currently selected album/folder"
+msgstr ""
+
+#: php/admin/main.php:420
+msgctxt "tutorial"
+msgid "Delete currently selected album/folder"
+msgstr ""
+
+#: php/admin/main.php:421
+msgctxt "tutorial"
+msgid ""
+"Click a list item to show its info in the info panel, double-click to "
+"navigate to it"
+msgstr ""
+
+#: php/admin/main.php:423
+msgctxt "tutorial"
+msgid ""
+"Use bulk select mode to select multiple images for moving them to another "
+"album or deleting"
+msgstr ""
+
+#: php/admin/main.php:424
+msgctxt "tutorial"
+msgid "You can switch the image list view to the table mode"
+msgstr ""
+
+#: php/admin/main.php:425
+msgctxt "tutorial"
+msgid ""
+"To open image editor double-click the image or the Edit button in the Info "
+"panel"
+msgstr ""
+
+#: php/admin/main.php:426
+msgctxt "tutorial"
+msgid ""
+"You can drag single or multiple images to another album or to the &quot;All "
+"images&quot;/&quot;Unsorted images&quot; folders"
+msgstr ""
+
+#: php/admin/main.php:442
+msgid "Disable"
+msgstr ""
+
+#: php/admin/main.php:458
+msgid "ILightbox (not included, enable integration only)"
+msgstr ""
+
+#: php/admin/main.php:462
+msgid "Nivo Lightbox (not included, enable integration only)"
+msgstr ""
+
+#: php/admin/main.php:468
+msgid "Top"
+msgstr ""
+
+#: php/admin/main.php:472
+msgid "Bottom"
+msgstr ""
+
+#: php/admin/main.php:478 php/admin/main.php:533
+msgid "Use global setting"
+msgstr ""
+
+#: php/admin/main.php:482 php/admin/main.php:497 php/admin/main.php:511
+msgid "None"
+msgstr ""
+
+#: php/admin/main.php:490 php/admin/main.php:505
+msgid "Caption & description"
+msgstr ""
+
+#: php/admin/main.php:515
+msgid "Paged (numbers)"
+msgstr ""
+
+#: php/admin/main.php:519
+msgid "Paged (bullets)"
+msgstr ""
+
+#: php/admin/main.php:523
+msgid "Load more button"
+msgstr ""
+
+#: php/admin/main.php:527
+msgid "Load on scroll"
+msgstr ""
+
+#: php/admin/main.php:537 php/admin/main.php:551
+msgid "Light"
+msgstr ""
+
+#: php/admin/main.php:541 php/admin/main.php:555
+msgid "Dark"
+msgstr ""
+
+#: php/admin/main.php:545 php/admin/main.php:559
+msgid "Custom"
+msgstr ""
+
+#: php/admin/main.php:566
+msgid "Grid"
+msgstr ""
+
+#: php/admin/main.php:570
+msgid "Metro"
+msgstr ""
+
+#: php/admin/main.php:574
+msgid "Masonry"
+msgstr ""
+
+#: php/admin/main.php:647
+msgid "Open in lightbox"
+msgstr ""
+
+#: php/admin/main.php:651
+msgid "Redirect to URL"
+msgstr ""
+
+#: php/admin/main.php:655
+msgid ""
+"Open dedicated image page (experimental, please refer to the user manual)"
+msgstr ""
+
+#: php/admin/main.php:659
+msgid "No action"
+msgstr ""
+
+#: php/admin/main.php:665
+msgid "Same window"
+msgstr ""
+
+#: php/admin/main.php:669
+msgid "New window"
+msgstr ""
+
+#: php/admin/main.php:712
+msgid "Insert Gallery Factory Shortcode"
+msgstr ""
+
+#: php/admin/main.php:714
+msgid "Select an item to insert"
+msgstr ""
+
+#: php/admin/main.php:850
+msgid "Gallery Factory Album"
+msgstr ""
+
+#: php/admin/main.php:851
+msgid "Include a Gallery Factory album"
+msgstr ""
+
+#: php/admin/main.php:856
+msgid "Content"
+msgstr ""
+
+#: php/admin/main.php:864
+msgid "Album ID"
+msgstr ""
+
+#: php/admin/main.php:867
+msgid "Enter Gallery Factory album ID"
+msgstr ""
+
+#: php/core/database.php:37
+msgid ""
+"The current Gallery Factory version can't be upgraded to v2.0.0. Please "
+"update the plugin to v1.3 first."
+msgstr ""
+
+#: php/core/installer.php:41
+#, php-format
+msgid "Gallery Factory version %1$s requires WordPress %2$s or higher."
+msgstr ""
+
+#: php/core/installer.php:78
+msgid ""
+"Congratulations, you are almost ready to go with the new Gallery Factory "
+"version 2!"
+msgstr ""
+
+#: php/core/installer.php:79
+msgid ""
+"Please <a href=\"/wp-admin/admin.php?page=vls_gallery_factory#tools"
+"\">regenerate thumbnails</a> now to finish with upgrading."
+msgstr ""
+
+#: php/front/gallery.php:203
+msgid "Gallery Factory error: "
+msgstr ""
+
+#: php/front/main.php:128
+msgid "Load more"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Gallery Factory"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://galleryfactory.vilyon.net"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Efficient and easy way to handle your image collection in WordPress. "
+"Organize your albums with folders, create stunning layouts with visual "
+"editor, take your website to a new level with modern, fast & responsive "
+"galleries."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Vilyon Studio"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://vilyon.net/"
+msgstr ""

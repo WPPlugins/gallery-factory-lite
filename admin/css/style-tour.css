@@ -1,0 +1,146 @@
+#vls-gf-tour-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10000;
+}
+#vls-gf-tour-backdrop .vls-gf-tour-focus {
+  position: absolute;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+#vls-gf-tour-backdrop .vls-gf-tour-focus:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  bottom: -20px;
+  left: -20px;
+  -webkit-box-shadow: inset 0 0 12px 12px rgba(0, 0, 0, 0.4);
+}
+#vls-gf-tour-backdrop .vls-gf-tour-focus:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  bottom: -20px;
+  left: -20px;
+  -webkit-box-shadow: 0 0 40px 5000px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 40px 5000px rgba(0, 0, 0, 0.4);
+}
+#vls-gf-tour-backdrop .vls-gf-tour-welcome-message {
+  position: absolute;
+  width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  -webkit-box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.6);
+  box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.6);
+}
+#vls-gf-tour-backdrop .vls-gf-tour-welcome-message h1 {
+  font-size: 18px;
+}
+#vls-gf-tour-backdrop .vls-gf-tour-welcome-message p {
+  font-size: 14px;
+}
+#vls-gf-tour-backdrop .vls-gf-tour-message {
+  position: absolute;
+  padding: 20px;
+  background-color: #fff;
+  font-size: 14px;
+  box-sizing: border-box;
+  -webkit-box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.6);
+  box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.6);
+}
+#vls-gf-tour-backdrop .vls-gf-tour-message.vls-gf-tour-message-left:after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 50%;
+  left: 100%;
+  margin-top: -10px;
+  margin-left: -10px;
+  background-color: #fff;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.18);
+}
+#vls-gf-tour-backdrop .vls-gf-tour-message.vls-gf-tour-message-right:after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 50%;
+  left: 0;
+  margin-top: -10px;
+  margin-left: -10px;
+  background-color: #fff;
+  box-shadow: -3px -3px 3px rgba(0, 0, 0, 0.3);
+}
+#vls-gf-tour-backdrop .vls-gf-tour-controls {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  margin-left: -250px;
+  width: 500px;
+  height: 76px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+#vls-gf-tour-backdrop .vls-gf-tour-controls .vls-gf-tour-progress {
+  margin: 12px 0 0 0;
+  text-align: center;
+}
+#vls-gf-tour-backdrop .vls-gf-tour-controls .vls-gf-tour-progress span {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 0 3px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+#vls-gf-tour-backdrop .vls-gf-tour-controls .vls-gf-tour-progress span.done {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+#vls-gf-tour-backdrop .vls-gf-tour-controls #vls-gf-tour-btn-next {
+  position: absolute;
+  bottom: 12px;
+  left: 200px;
+  width: 100px;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+  height: 26px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+#vls-gf-tour-backdrop .vls-gf-tour-controls #vls-gf-tour-btn-next:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+#vls-gf-tour-backdrop .vls-gf-tour-controls #vls-gf-tour-btn-close {
+  position: absolute;
+  bottom: 12px;
+  left: 316px;
+  color: #ccc;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  height: 26px;
+}
+#vls-gf-tour-backdrop .vls-gf-tour-controls #vls-gf-tour-btn-close:hover {
+  color: #fff;
+}

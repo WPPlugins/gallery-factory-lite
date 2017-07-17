@@ -1,0 +1,71 @@
+.vls-gf-tab-container-layout > div > ul > li.ui-resizable .ui-resizable-handle {
+  opacity: 0;
+  position: absolute;
+  width: auto;
+  height: auto;
+  background-color: transparent;
+  border: 1px solid #fff;
+  -webkit-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+.vls-gf-tab-container-layout > div > ul > li.ui-resizable .ui-resizable-n {
+  top: 0;
+  right: 20%;
+  bottom: 80%;
+  left: 20%;
+  cursor: ns-resize;
+  margin: 0;
+}
+.vls-gf-tab-container-layout > div > ul > li.ui-resizable .ui-resizable-ne {
+  top: 0;
+  right: 0;
+  bottom: 80%;
+  left: 80%;
+  cursor: nesw-resize;
+}
+.vls-gf-tab-container-layout > div > ul > li.ui-resizable .ui-resizable-e {
+  top: 20%;
+  right: 0;
+  bottom: 20%;
+  left: 80%;
+  cursor: ew-resize;
+  margin: 0;
+}
+.vls-gf-tab-container-layout > div > ul > li.ui-resizable .ui-resizable-se {
+  top: 80%;
+  right: 0;
+  bottom: 0;
+  left: 80%;
+  cursor: nwse-resize;
+}
+.vls-gf-tab-container-layout > div > ul > li.ui-resizable .ui-resizable-s {
+  top: 80%;
+  right: 20%;
+  bottom: 0;
+  left: 20%;
+  cursor: ns-resize;
+  margin: 0;
+}
+.vls-gf-tab-container-layout > div > ul > li.ui-resizable .ui-resizable-sw {
+  top: 80%;
+  right: 80%;
+  bottom: 0;
+  left: 0;
+  cursor: nesw-resize;
+}
+.vls-gf-tab-container-layout > div > ul > li.ui-resizable .ui-resizable-w {
+  top: 20%;
+  right: 80%;
+  bottom: 20%;
+  left: 0;
+  cursor: ew-resize;
+  margin: 0;
+}
+.vls-gf-tab-container-layout > div > ul > li.ui-resizable .ui-resizable-nw {
+  top: 0;
+  right: 80%;
+  bottom: 80%;
+  left: 0;
+  cursor: nwse-resize;
+}

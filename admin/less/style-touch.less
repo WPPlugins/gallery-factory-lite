@@ -1,0 +1,93 @@
+@import "../../lib/vendor-prefix-mixins.less";
+
+@resize-handler-size: 21px;
+@resize-area: 20%;
+
+.vls-gf-tab-container-layout {
+    > div {
+        > ul {
+            > li.ui-resizable {
+
+                .ui-resizable-handle {
+                    opacity: 0;
+                    position: absolute;
+                    width: auto;
+                    height: auto;
+                    background-color: transparent;
+                    border: 1px solid #fff;
+
+                    .transition(opacity 0.3s ease);
+                }
+
+                .ui-resizable-n {
+                    top: 0;
+                    right: @resize-area;
+                    bottom: 100% - @resize-area;
+                    left: @resize-area;
+                    cursor: ns-resize;
+                    margin: 0;
+                }
+
+                .ui-resizable-ne {
+                    top: 0;
+                    right: 0;
+                    bottom: 100% - @resize-area;
+                    left: 100% - @resize-area;
+                    cursor: nesw-resize;
+                }
+
+                .ui-resizable-e {
+                    top: @resize-area;
+                    right: 0;
+                    bottom: @resize-area;
+                    left: 100% - @resize-area;
+                    cursor: ew-resize;
+                    margin: 0;
+                }
+
+                .ui-resizable-se {
+                    top: 100% - @resize-area;
+                    right: 0;
+                    bottom: 0;
+                    left: 100% - @resize-area;
+                    cursor: nwse-resize;
+                }
+
+                .ui-resizable-s {
+                    top: 100% - @resize-area;
+                    right: @resize-area;
+                    bottom: 0;
+                    left: @resize-area;
+                    cursor: ns-resize;
+                    margin: 0;
+                }
+
+                .ui-resizable-sw {
+                    top: 100% - @resize-area;
+                    right: 100% - @resize-area;
+                    bottom: 0;
+                    left: 0;
+                    cursor: nesw-resize;
+                }
+
+                .ui-resizable-w {
+                    top: @resize-area;
+                    right: 100% - @resize-area;
+                    bottom: @resize-area;
+                    left: 0;
+                    cursor: ew-resize;
+                    margin: 0;
+                }
+
+                .ui-resizable-nw {
+                    top: 0;
+                    right: 100% - @resize-area;
+                    bottom: 100% - @resize-area;
+                    left: 0;
+                    cursor: nwse-resize;
+                }
+
+            }
+        }
+    }
+}
